@@ -30,8 +30,9 @@ public class ExtentReportDemo {
 
 	@Test
 	public void initialDemo() {
-		@SuppressWarnings("unused")
+		
 		ExtentTest test =extent.createTest("Initial Demo");
+		
 		System.setProperty("webdriver.chrome.driver","./server/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -39,8 +40,8 @@ public class ExtentReportDemo {
 
 		driver.get("https://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
-		driver.close();
-		//test.fail("Result Do Not Match.");
+		driver.quit();
+		test.fail("Result Do Not Match.");
 		extent.flush();
 	}
 

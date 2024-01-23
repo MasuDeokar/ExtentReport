@@ -49,8 +49,6 @@
 			<version>2.22.1</version>
 			<scope>test</scope>
 	</dependency>
-
-
   </dependencies>
 
   <build>
