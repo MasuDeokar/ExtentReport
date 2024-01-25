@@ -4,10 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>masudeokarwork</groupId>
-  <artifactId>ExtendReports</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
 
+	<groupId>masudeokarwork</groupId>
+	<artifactId>ExtendReports</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	
   <name>ExtendReports</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -38,8 +39,9 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.16.1</version>
+    <version>4.17.0</version>
 </dependency>
+
 
 		<!--
 		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
